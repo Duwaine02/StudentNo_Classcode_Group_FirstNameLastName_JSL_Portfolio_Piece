@@ -22,10 +22,11 @@
         </div>
 
         <div class="boards-nav-links-div" id="boards-nav-links-div">
-            <h4 id="headline-sidepanel">ALL BOARDS</h4>
+            <h1 id="headline-sidepanel">Launch Career</h1>
+            <h1 id="headline-sidepanel">RoadMap</h1>
         </div>
         <div class="side-bar-bottom">
-            <div class="toggle-div">
+            <div class="toggle-div" id="themeSwitch">
                 <img src="./assets/icon-dark-theme.svg" id="icon-dark" alt="icon-dark-theme">
                 <input type="checkbox" id="switch" />
                 <label for="switch" id="label-checkbox-theme"></label>
@@ -37,10 +38,11 @@
             </div>
         </div>
     </nav>
+    <div class="show-side-bar-btn">
     <button id="show-side-bar-btn">
         <img src="./assets/icon-show-sidebar.svg" alt="icon-show-sidebar">
     </button>
-
+</div>
     <!-- Main Layout: Header with board title, add task button, and main content area for task columns. -->
     <div id="layout">
         <header id="header" class="sticky-header">
@@ -50,6 +52,8 @@
                 <button class="dropdownBtn" id="dropdownBtn">
                     <img src="./assets/icon-chevron-down.svg" alt="icon-chevron-down" class="icon-chevron-down" id="dropDownIcon">
                 </button>
+            </div>
+            <div>
             </div>
             <button id="add-new-task-btn" class="primary-btn">+ Add New Task</button>
             <button class="edit-btn" id="edit-board-btn">
@@ -145,10 +149,10 @@
     </div>
 
 
-    <div id="filterDiv"></div>
+    <div id="filter-Div"></div>
 
     <!-- JavaScript Import -->
-    <script type="module" src="./index.js"></script>
+    <script type="module" src="./index.js" defer></script>
 </body>
 
 </html>
