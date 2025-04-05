@@ -20,7 +20,7 @@ Jump into the walkthrough of the project and starter code here: https://www.yout
 
 As a newly hired developer at Agile Board, a fictional company specializing in innovative task management solutions, you'll embark on an exciting journey to enhance their flagship Kanban Task Management App.
 
-![alt text](assets/JSL11_solution.gif)
+![https://drive.google.com/file/d/1iXYjlv4WZ3-zrn-Rhj_LXyTqAtviI_vi/view?usp=sharing](assets/JSL11_solution.gif)
 
 Your journey through this project will involve several key activities:
 
